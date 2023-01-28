@@ -67,8 +67,8 @@ Page Panier:
 → Un bouton “payer” qui valide la transaction.
 
 Page Paramètre:
-→ Un bouton “Mes Informations Personnelles” qui envoie à la page Mes Informations Personnelles.
 
+→ Un bouton “Mes Informations Personnelles” qui envoie à la page Mes Informations Personnelles.
 → Un bouton “Historique de vente” qui envoie à la page Historique de vente.
 
 Page mes informations personnelles:
