@@ -57,26 +57,35 @@ Site web version modérateur (membre du BDE):
 
 Page d’accueil:
 → La page d’accueil est pareille que celle du client cependant la version du modérateur contient des changements dans le header (cité plus haut).
+
 Page Catalogue:
 → Dans cette version, le modérateur a la même base que le client cependant, contrairement au client, le modérateur a un bouton ajouter dans le panier lui permet d’ajouter les produits sélectionnés dans le panier.
+
 Page Panier:
 → La page affiche les produits sélectionnés sous forme d’un tableau dans lequel il y a “le nom du produit”, “la quantité” et “le prix du produit”.
 → Le prix total des produits achetés 
 → Un mini formulaire où le modérateur écrit le numéro étudiant valide du client pour que le client puisse voir la transaction dans sa page historique.
 → Un bouton “payer” qui valide la transaction.
+
 Page Paramètre:
 → Un bouton “Mes Informations Personnelles” qui envoie à la page Mes Informations Personnelles.
 → Un bouton “Historique de vente” qui envoie à la page Historique de vente.
+
 Page mes informations personnelles:
 → Un tableau qui affiche “le nom”, “le prénom”, “le numéro étudiant” ainsi que le “grade” du membre du bde.
+
 Page Historique de vente:
 → Un tableau dans lequel il y a “le nom de l’acheteur”, “le nom du produit acheté”, “la date”, “la quantité”, ainsi que “le prix”.
+
 Page Mensualité:
 → Un tableau dans lequel il y a “le nom de l’acheteur”, “le nom du produit acheté”, “la date”, “la quantité”, ainsi que “le prix”. Cette page calcul et affiche la totalité des ventes effectuées pendant 1 mois.
+
 Page Bilan: 
 → Un tableau dans lequel il y a “le nom de l’acheteur”, “le nom du produit acheté”, “la date”, “la quantité”, ainsi que “le prix”. Cette page calcul et affiche la totalité des ventes effectuées pendant toute l’année.
+
 Page Inventaire:
 → Un tableau dans lequel il y a “le nom des produits”, “la quantité”, “le prix”,  et “changer la quantité” dans lequel se trouve un mini champ de texte qu’on doit remplir si on veut augmenter la quantité des produits.
 → Un bouton “ajouter un produit” qui ramène l’utilisateur dans la page ajouter un produit.
+
 Page Ajouter un produit:
 → La page est composée d’un formulaire que l’utilisateur doit remplir pour ajouter des produits dans l’inventaire, un champ de texte qui contient “le lien de l’image”, “son prix”, “son nom”, “sa quantité”.
