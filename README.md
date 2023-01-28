@@ -30,7 +30,7 @@ Document Officiels : contient deux pages web, celui de la Mention légale qui co
     
 Site web version client
 Page d’accueil: 
-→ Une partie où l’on présente les horaires de disponibilités du BDE.
+→ Une partie où l’on présente les horaires de disponibilités du BDE.</br>
 → Une deuxième partie dans laquelle on présente les moyens de paiements disponibles avec des images.
 → Une troisième partie dans laquelle il y a un diaporama automatique, qui défile les images des produits.
 Page Catalogue: 
