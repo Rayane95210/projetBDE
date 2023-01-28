@@ -1,7 +1,6 @@
 # projetBDE
 
-Page Connexion :
-Entrez votre numéro étudiant et votre mot de passe afin de vous connecter sur le site du BDE. 
+Page Connexion : Entrez votre numéro étudiant et votre mot de passe afin de vous connecter sur le site du BDE. 
 Si vous n’avez pas de compte, cliquez sur le lien "Créer un compte” juste en bas du formulaire afin d’accéder à la page Inscription pour pouvoir créer un compte .
 Si vous ne voulez pas créer de compte, vous pouvez cliquer sur le lien ”Se connecter en tant qu’inviter” afin d’accéder au site en tant que personne anonyme.
 
@@ -69,6 +68,7 @@ Page Panier:
 
 Page Paramètre:
 → Un bouton “Mes Informations Personnelles” qui envoie à la page Mes Informations Personnelles.
+
 → Un bouton “Historique de vente” qui envoie à la page Historique de vente.
 
 Page mes informations personnelles:
