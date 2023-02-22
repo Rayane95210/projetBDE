@@ -10,28 +10,28 @@ require 'view_header.php'
           <hr>
           <div class="bloc">
             <p>
-              <img src="../MVC/Content/img/utilisateur.png" alt="utilisateur Nom">
+              <img src="img/utilisateur.png" alt="utilisateur Nom">
             </p>
             <p> <?= $info[0]['nom'] ?> </p>
           </div>
           <hr>
           <div class="bloc2">
             <p>
-              <img src="../MVC/Content/img/utilisateur.png" alt="utilisateur Prenom">
+              <img src="img/utilisateur.png" alt="utilisateur Prenom">
             </p>
             <p> <?= $info[0]['prenom'] ?> </p>
           </div>
           <hr>
           <div class="bloc3">
             <p>
-              <img src="../MVC/Content/img/chapeau.png" alt="utilisateur Numero étudiant">
+              <img src="img/chapeau.png" alt="utilisateur Numero étudiant">
             </p>
             <p> <?= $info[0]['idEtudiant'] ?> </p>
           </div>
           <hr>
           <div class="bloc4">
             <p>
-              <img src="../MVC/Content/img/Ruban.svg" alt=" Logo Ruban Formation">
+              <img src="img/Ruban.svg" alt=" Logo Ruban Formation">
             </p>
             <p> Formation </p>
           </div>

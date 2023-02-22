@@ -30,7 +30,7 @@ require_once "view_header.php";
                 <td><?=$p['name']?></td>
                 <td><?=$p['price']?> euros</td>
                 <td><?= $_SESSION['panier'][$p['id']]?></td>
-                <td><a href="?controller=boutique&action=panier&del=<?=$p['id']?>"><img src="../MVC/Content/img/delete.png"></a></td>
+                <td><a href="?controller=boutique&action=panier&del=<?=$p['id']?>"><img src="img/delete.png"></a></td>
             </tr>
             <?php $prix = $prix + ($p['price'] * $_SESSION['panier'][$p['id']]); } ?> 
             <?php endforeach ?> 

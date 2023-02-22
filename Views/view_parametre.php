@@ -7,13 +7,13 @@ require "view_header.php"?>
         <div class="grandDiv">
           <div class="div1">
             <a href="?controller=accueil&action=infor">
-              <img src="../MVC/Content/img/user.png" alt="mon profil">
+              <img src="img/user.png" alt="mon profil">
             </a>
             <p>Mes informations personnelles</p>
           </div>
           <div class="div2">
             <a href="?controller=boutique&action=bilan">
-              <img src="../MVC/Content/img/bdd.png" alt="Historique">
+              <img src="img/bdd.png" alt="Historique">
             </a>
             <p> Historique des ventes </p>
           </div>
@@ -36,12 +36,12 @@ require "view_header.php"?>
           <ul class="liste-reseau">
             <li>
               <a href="https://www.instagram.com/bdeup13/">
-                <img src="../MVC/Content/img/instagram.svg" class="insta" alt="logo istagram">
+                <img src="img/instagram.svg" class="insta" alt="logo istagram">
               </a>
             </li>
             <li>
               <a href="https://www.tiktok.com/@bdeup13?_t=8XeqIcUP8XF&_r=1&fbclid=PAAaZ_noPD2puYIRo487qGeJtzZwcnzErIxAWR9LAVAhEGcoxbvmwk3WS5_f0">
-                <img src="../MVC/Content/img/tiktok.svg" class="tiktok" alt="logo tiktok">
+                <img src="img/tiktok.svg" class="tiktok" alt="logo tiktok">
               </a>
             </li>
           </ul>
@@ -50,10 +50,10 @@ require "view_header.php"?>
           <h3> Documents offciels </h3>
           <ul class="liste-document">
             <li>
-              <a href="../MVC/Content/html/MentionLegal.html"> Mention légales </a>
+              <a href="html/MentionLegal.html"> Mention légales </a>
             </li>
             <li>
-              <a href="../MVC/Content/html/Charte.html"> Charte </a>
+              <a href="html/Charte.html"> Charte </a>
             </li>
           </ul>
         </div>
@@ -62,6 +62,6 @@ require "view_header.php"?>
         <h1 class='copyright'>Copyright&#169;Stark Industries</h1>
       </div>
     </footer>
-    <script src="../MVC/Content/js/Header.js"></script>
+    <script src="js/Header.js"></script>
   </body>
 </html>

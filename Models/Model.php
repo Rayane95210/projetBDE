@@ -17,7 +17,8 @@ class Model
      */
     private function __construct()
     {
-        $this->bd = new PDO('mysql:host=localhost;dbname=bde','root');
+        include "credentials.php";
+        $this->bd = new PDO($dsn, $login, $mdp);
         $this->bd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $this->bd->query("SET nameS 'utf8'");
     }
@@ -37,7 +38,7 @@ class Model
     {
         //Préparation de la requête
         //$requete = $this->bd->prepare('INSERT INTO nobels (year, category, name, birthdate, birthplace, county, motivation) VALUES (:year, :category, :name, :birthdate, :birthplace, :county, :motivation)');
-        $requete = $this->bd->prepare('INSERT INTO Clients(idEtudiant, nom, prenom, password) VALUES (:idEtudiant, :nom, :prenom, :password)');
+        $requete = $this->bd->prepare('INSERT INTO clients(idEtudiant, nom, prenom, password) VALUES (:idEtudiant, :nom, :prenom, :password)');
         //Remplacement des marqueurs de place par les valeurs
         //$marqueurs = ['year', 'category', 'name', 'birthdate', 'birthplace', 'county', 'motivation'];
         $marqueurs = ['idEtudiant', 'nom', 'prenom', 'password'];
@@ -54,7 +55,7 @@ class Model
 
     public function getClient()
     {
-        $req = $this->bd->prepare('SELECT COUNT(*) FROM Clients');
+        $req = $this->bd->prepare('SELECT COUNT(*) FROM clients');
         $req->execute();
         $tab = $req->fetch(PDO::FETCH_NUM);
         return $tab[0];

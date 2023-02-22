@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Home</title>
-  <link rel="stylesheet" href="../MVC/Content/css/accueil.css">
+  <link rel="stylesheet" href="css/accueil.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -14,17 +14,17 @@
 
 <header>
   <div class="entete">
-    <p > <a href="?controller=accueil&action=homeEng"><img src="../MVC/Content/img/loup.png" class="loup"> </a> </p>
-    <p class="cata"><a href="../MVC/Content/html/catalogue.html" style="color:#FFFFFF" >Catalog</a></p>
+    <p > <a href="?controller=accueil&action=homeEng"><img src="img/loup.png" class="loup"> </a> </p>
+    <p class="cata"><a href="html/catalogue.html" style="color:#FFFFFF" >Catalog</a></p>
     <div class="br">
     <ul class="menuderoulant"> 
     <li><a href="?controller=inscription&action=inscriptionEng">Sign in</a></li>
     <li><a href="#">Log in</a></li>
   </ul>
     </div>
-    <p > <a href="?controller=accueil&action=home"><img src="../MVC/Content/img/FR.png" class="uk"> </a> </p> 
+    <p > <a href="?controller=accueil&action=home"><img src="img/FR.png" class="uk"> </a> </p>
     <ul>   
-    <li><button id="menu-button"><img src="../MVC/Content/img/clientvert.jpg" class="clientvert"></button></li>
+    <li><button id="menu-button"><img src="img/clientvert.jpg" class="clientvert"></button></li>
 </ul>
  <script>
 $(document).ready(function() {
